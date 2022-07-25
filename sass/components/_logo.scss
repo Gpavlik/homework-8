@@ -1,0 +1,24 @@
+.logo {
+  font-family: var(--logo-text);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--brand-color);
+  margin-right: 93px;
+  &--black {
+    color: black;
+    margin-right: 0px;
+  }
+
+  &--footer {
+    color: white;
+    margin-right: 0px;
+  }
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
