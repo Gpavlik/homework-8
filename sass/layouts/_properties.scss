@@ -1,11 +1,29 @@
 .list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: normal;
+  @media screen and (max-width: 1200px) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
 
   & > .item {
     gap: 30px;
-    width: 270px;
+
+    @media screen and (max-width: 767px) {
+      width: 450px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
 
     &::before {
       content: "";

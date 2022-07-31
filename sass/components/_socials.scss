@@ -1,8 +1,13 @@
 .social--footer {
   width: 206px;
-  margin-right: 70px;
+  @media screen and (max-width: 1199px) {
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
 }
-
 .social__list {
   display: flex;
   align-items: center;

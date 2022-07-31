@@ -2,9 +2,17 @@
   padding-top: 32px;
   padding-bottom: 32px;
   border-bottom: #ececec 1px solid;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 22px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 32px;
+  }
 }
 
 .header__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
