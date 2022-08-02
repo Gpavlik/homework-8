@@ -62,5 +62,11 @@
     <symbol id="icon-galka" viewBox="0 0 42 32">
       <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
     </symbol>
+    <symbol id="24-menu" viewBox="0 0 24 24">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.667V0h24v2.667H0Zm0 6.666h24V6.667H0v2.666ZM0 16h24v-2.667H0V16Z" fill="#000"/>
+    </symbol>
+    <symbol id="24-close" viewBox="0 0 24 24">
+    <path d="M18.667 1.88 16.787 0 9.333 7.453 1.88 0 0 1.88l7.453 7.453L0 16.787l1.88 1.88 7.453-7.454 7.454 7.454 1.88-1.88-7.454-7.454 7.454-7.453Z" fill="#000"/>
+    </symbol>
   </defs>
 </svg>
