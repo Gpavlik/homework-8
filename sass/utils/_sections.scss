@@ -1,9 +1,8 @@
-.hero,
 .clients,
-.about-us,
 .properties,
 .team,
-.works {
+.works,
+.hero {
   @media screen and (max-width: 1199px) {
     margin: 0px auto;
     padding-top: 60px;
